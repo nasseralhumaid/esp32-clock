@@ -16,4 +16,6 @@ A smart clock which grabs time and weather from the internet.
 
 - No AI agents were used to make the code
 
-- Only web based AI was used for help with libraries and built in functrions.
+- Only web based AI was used for help with libraries and built in functions.
+
+
