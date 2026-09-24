@@ -6,12 +6,13 @@
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
 #include <time.h>
+
 #include "secrets.h"
 #include "images.h"
 
 U8G2_SSD1322_NHD_256X64_F_8080 u8g2(U8G2_R0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 13, 14);
 
-const char* ntpServer = "uk.pool.ntp.org";
+const char* ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = GMTOFFSET;
 const int daylightOffset_sec = DAYLIGHTOFFSET;
 
