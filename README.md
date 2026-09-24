@@ -40,6 +40,8 @@ A smart clock which grabs time and weather from the internet.
 
 - Port to low powered boards like the ESP32-C3 and STM32
 
+- Make the display show more information about what it is doing (connecting to WiFi, fetching weather, display how outdated weather info is, etc.)
+
 
 
 ### Current Issues:
