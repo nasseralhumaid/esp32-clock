@@ -16,11 +16,11 @@ A smart clock which grabs time and weather from the internet.
 2. ##### Build and flash yourself
    - Clone this repository and use PlatformIO to build and upload it to your board.
    
-   - You will need to edit platformio.ini if your board is not the ESP32s3 N16R8
+   - You will need to edit platformio.ini if your board is not the ESP32-S3 N16R8
 
 ### Supported Boards:
 
-- ESP32s3 N16R8
+- ESP32-S3 N16R8
 
 - Support for more boards will come soon when the project is more mature
 
@@ -35,6 +35,10 @@ A smart clock which grabs time and weather from the internet.
 - A web ui for configuration on a mobile device or computer
 
 - Potentially integrate with a computer to show things like currently playing song, WPM etc.
+
+- Make better use of ESP32-S3 features like using both cores
+
+- Port to low powered boards like the ESP32-C3 and STM32
 
 
 
